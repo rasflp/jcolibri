@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.1 U (http://www.xmlspy.com) by Nasdaq Boom (World of Cracking) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Tasks" type="TasksType">
+		<xs:annotation>
+			<xs:documentation>Available tasks on the system</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="TaskType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Represents the objective that must be achived after this task completation.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Well understood explanation of which is the goal of this task.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TasksType">
+		<xs:sequence>
+			<xs:element ref="Task" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Task" type="TaskType">
+		<xs:annotation>
+			<xs:documentation>Each one of the task declaration that are available  to be used on JColibri.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTypes>
+	<DataType>
+		<Name>Integer</Name>
+		<Class>java.lang.Integer</Class>
+		<GUIEditor>jcolibri.gui.editor.IntegerEditor</GUIEditor>
+	</DataType>
+	<DataType>
+		<Name>Double</Name>
+		<Class>java.lang.Double</Class>
+		<GUIEditor>jcolibri.gui.editor.DoubleEditor</GUIEditor>
+	</DataType>
+	<DataType>
+		<Name>Boolean</Name>
+		<Class>java.lang.Boolean</Class>
+		<GUIEditor>jcolibri.gui.editor.BooleanEditor</GUIEditor>
+	</DataType>
+	<DataType>
+		<Name>String</Name>
+		<Class>java.lang.String</Class>
+		<GUIEditor>jcolibri.gui.editor.StringEditor</GUIEditor>
+	</DataType>
+	<DataType>
+		<Name>File</Name>
+		<Class>java.lang.String</Class>
+		<GUIEditor>jcolibri.gui.editor.FileEditor</GUIEditor>
+	</DataType>
+	<DataType>
+		<Name>StringEnumeration</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+	</DataType>
+</DataTypes>

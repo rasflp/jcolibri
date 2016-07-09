@@ -1,0 +1,17 @@
+jCOLIBRI Web Extension HowTo
+----------------------------
+
+1.- Set your enviroment variables: CATALINA_HOME and CATALINA_BASE. This variables must contain Tomcat's main directory.
+2.- Copy jCOLIBRIBridge.jar from \jcolibri\bin to your <TOMCAT>\Shared directory.
+3.- Copy "playtennis" folder under <TOMCAT>\webapps
+4.- Run PlayTennisWebExample.bat or
+    Run jCOLIBRI and create a new CBR application choosing the Web Server Extension, then
+	5.- Configure the methods using the connector.xml and casestructure.xml files contained in the playtennis example directory.
+	6.- Execute the methods. After load the cases jCOLIBRI will be blocked waiting for the query from the web server.
+	7.- Open localhost:8080/playtennis/playtennis.html with your explorer and set the query. (The URL may change depending your settings).
+8.- Enjoy!
+
+
+Juan A. Recio-García
+jareciog@fdi.ucm.es
+http://gaia.fdi.ucm.es

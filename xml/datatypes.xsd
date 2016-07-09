@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 U (http://www.altova.com) by aaa (aaa) -->
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Juanan (ucm) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="DataTypes">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="DataType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name"/>
+							<xs:element name="Class"/>
+							<xs:element name="GUIEditor"/>
+							<xs:element name="Enumeration" minOccurs="0">
+								<xs:complexType>
+									<xs:choice maxOccurs="unbounded">
+										<xs:element name="Value"/>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

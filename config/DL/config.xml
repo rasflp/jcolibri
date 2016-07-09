@@ -1,0 +1,10 @@
+<jCOLIBRIPackage>
+  <name>Description Logic Extension</name>
+  <description>Description Logics Support for jCOLIBRI</description>
+  <path>DL</path>
+  <methods>methods.xml</methods>
+  <tasks>tasks.xml</tasks>
+  <localSimilarityFunctions>localSimil.xml</localSimilarityFunctions>
+  <datatypes>datatypes.xml</datatypes>
+</jCOLIBRIPackage>
+

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Methods>
+<Method>
+<Name>jcolibri.extensions.textual.method.TextualPreCycleMethod</Name>
+<Description>Simple textual pre-cycle</Description>
+<Type>Decomposition</Type>
+<Competencies>
+<Competence>PreCycle</Competence>
+</Competencies>
+<SubTasks>
+<SubTask>Obtain cases task</SubTask>
+<SubTask>Select working cases task</SubTask>
+<SubTask>Cases Textual Process task</SubTask>
+</SubTasks>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.TextualCBRPreProcessMethod</Name>
+<Description>Simple textual pre-process</Description>
+<Type>Decomposition</Type>
+<Competencies>
+<Competence>Cases Textual Process task</Competence>
+<Competence>Query Textual Process task</Competence>
+</Competencies>
+<SubTasks>
+<SubTask>Keyword Layer</SubTask>
+<SubTask>Phrase Layer</SubTask>
+<SubTask>Feature Value Layer</SubTask>
+<SubTask>Domain Structure Layer</SubTask>
+<SubTask>Information Extraction Layer</SubTask>
+</SubTasks>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.TextualCBRRetrieveMethod</Name>
+<Description>Simple textual retrieve strategy</Description>
+<Type>Decomposition</Type>
+<Competencies>
+<Competence>Retrieve Task</Competence>
+</Competencies>
+<SubTasks>
+<SubTask>Query Textual Process task</SubTask>
+<SubTask>Select working cases task</SubTask>
+<SubTask>Text Relation Process task</SubTask>
+<SubTask>Compute similarity task</SubTask>
+<SubTask>Select best task</SubTask>
+</SubTasks>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.TextRelationsMethod</Name>
+<Description>Relates cases and query terms</Description>
+<Type>Decomposition</Type>
+<Competencies>
+<Competence>Text Relation Process task</Competence>
+</Competencies>
+<SubTasks>
+<SubTask>Thesaurus Layer</SubTask>
+<SubTask>Glossary Layer</SubTask>
+</SubTasks>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.KeywordLayerMethod</Name>
+<Description>Divides KeywordLayer Task in other simple ones</Description>
+<Type>Decomposition</Type>
+<Competencies>
+<Competence>Keyword Layer</Competence>
+</Competencies>
+<SubTasks>
+<SubTask>Words Filter</SubTask>
+<SubTask>Stemmer</SubTask>
+<SubTask>Part-of-Speech</SubTask>
+<SubTask>Extract Names</SubTask>
+</SubTasks>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.StemmerMethod</Name>
+<Description>Typical stemmer algorithm (Porter)</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Stemmer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.ExtractNamesMethod</Name>
+<Description>Selects only the names of the text</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Extract Names</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.BasicIEMethod</Name>
+<Description>Extracts texts informations and stores it in case individuals (if defined). For example: if we have identified a feature with label "person" and our case has an attribute with the same label, this method stores the feature information into the case attribute. It also stores the "TOPIC" information extracted by "DomainTopicClassifierMethod" in the attribute named as defined in Paragraph.TOPIC (only if this attribute is defined in the case). Topic info is stored in a "Set" subclass. Important: This method only works with CBRCaseRecord instances.</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Information Extraction Layer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.ExtractPhrasesMethod</Name>
+<Description>Extracts Phrases using Regular Expresions</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Phrases file</Name>
+<Description>File with phrase rules</Description>
+<DataType>File</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Phrase Layer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.GlossaryRelationsMethod</Name>
+<Description>Relates query words to cases words using a domain specific glossary</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Glossary file</Name>
+<Description>File with glossary rules</Description>
+<DataType>File</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Glossary Layer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.SkipThisTaskMethod</Name>
+<Description>This method doesn't perform any action. It's only avaliable for domain-specific tasks</Description>
+<Type>Resolution</Type>
+<Competencies>
+<Competence>Phrase Layer</Competence>
+<Competence>Glossary Layer</Competence>
+<Competence>Thesaurus Layer</Competence>
+<Competence>Feature Value Layer</Competence>
+<Competence>Domain Structure Layer</Competence>
+<Competence>Information Extraction Layer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.WordNetRelationsMethod</Name>
+<Description>Relates query words to cases words using WordNet</Description>
+<Type>Resolution</Type>
+<Competencies>
+<Competence>Thesaurus Layer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.PartofSpeechMethod</Name>
+<Description>Part-of-Speech algorithm</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Part-of-Speech</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.WordsFilterMethod</Name>
+<Description>Filters the text removing stop-words and special characters</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Words Filter</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.DomainTopicClassifierMethod</Name>
+<Description>Associates a Topic using extracted Features and Phrases as conditions</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Topics file</Name>
+<Description>File with topics rules</Description>
+<DataType>File</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Domain Structure Layer</Competence>
+</Competencies>
+</Method>
+<Method>
+<Name>jcolibri.extensions.textual.method.ExtractFeaturesMethod</Name>
+<Description>Extract features using Regular Expressions</Description>
+<Type>Resolution</Type>
+<Parameters>
+<Parameter>
+<Name>Process Query</Name>
+<Description>do process query?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Process Cases</Name>
+<Description>do process cases?</Description>
+<DataType>Boolean</DataType>
+</Parameter>
+<Parameter>
+<Name>Features file</Name>
+<Description>File with features rules</Description>
+<DataType>File</DataType>
+</Parameter>
+</Parameters>
+<Competencies>
+<Competence>Feature Value Layer</Competence>
+</Competencies>
+</Method>
+</Methods>
+

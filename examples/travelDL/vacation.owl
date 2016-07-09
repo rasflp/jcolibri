@@ -1,0 +1,3442 @@
+<?xml version="1.0"?>
+<!DOCTYPE owl [
+<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+<!ENTITY unnamed "http://www.owl-ontologies.com/unnamed.owl#">
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+]>
+<rdf:RDF
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:unnamed="http://www.owl-ontologies.com/unnamed.owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xml:base="http://www.owl-ontologies.com/unnamed.owl"
+>
+<owl:Ontology rdf:about="http://www.owl-ontologies.com/unnamed.owl">
+<owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/protege"/>
+</owl:Ontology>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AIR">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#TRANSPORTATION">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#APARTMENT_CAT">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CATEGORY">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AUTUM">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEASON">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CATEGORY">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBRCASE">
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_DESCRIPTION">
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOLIDAY_TYPE">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CATEGORY">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOLIDAY_TYPE">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PERSONS">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#RELAX">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOLIDAY_TYPE">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEASON">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SPRING">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEASON">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SUMMER">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEASON">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SURFACE">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#TRANSPORTATION">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#TRANSPORTATION">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_AIR_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AIR">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_APARTMENT_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#APARTMENT_CAT">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_AUTUM_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AUTUM">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBRCASE">
+    </owl:Class>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_DESCRIPTION">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_HOTEL_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_NO_RELAX_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_RELAX_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#RELAX">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_SPRING_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SPRING">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_SUMMER_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SUMMER">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_SURFACE_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SURFACE">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_WINTER_CASE">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE" />
+          <owl:someValuesFrom>
+            <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#WINTER">
+            </owl:Class>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#WINTER">
+  <rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEASON">
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_HOTEL_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_SURFACE_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_AIR_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_WINTER_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_AUTUM_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_DESCRIPTION">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_SUMMER_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_NO_RELAX_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_RELAX_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_SPRING_CASE">
+        </owl:Class>
+        <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_APARTMENT_CASE">
+        </owl:Class>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_INDEX">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-CATEGORY">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CATEGORY">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-DESCRIPTION">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBRCASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#CBR_DESCRIPTION">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-DESTINATION">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-DURATION">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-HOLIDAY_TYPE">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOLIDAY_TYPE">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-PERSONS">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PERSONS">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-PRICE">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-SEASON">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEASON">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-TRANSPORTATION">
+  <rdfs:domain>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#TRANSPORTATION">
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+
+
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ACTIVE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ADRIATICSEA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ALGARVE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ALLGAEU">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ALPS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#APRIL">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SPRING">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ATLANTIC">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#AUGUST">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SUMMER">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#BATHING">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#BAVARIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#BELGIUM">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#BLACKFOREST">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CAIRO">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CAR">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SURFACE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CHALKIDIKI">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CITY">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CORFU">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CORSICA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#COSTABLANCA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#COTEDAZUR">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CRETE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CYPRUS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#CZECHIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#DECEMBER">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#WINTER">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#DENMARK">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#DOLOMITES">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#EDUCATION">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#EGYPT">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ERZGEBIRGE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#FANO">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#WINTER">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#FIVESTARS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#FRANCE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#FUERTEVENTURA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#GIANTMOUNTAINS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#GRANCANARIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#HARZ">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#APARTMENT_CAT">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I10">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I101">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TRAIN"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I948.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HARZ"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1017">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3368.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FRANCE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I5"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1018.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1032">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2028.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FRANCE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1044">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I998.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1044.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1046">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I847.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1048.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1049.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1053">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I669.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1056">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I569.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1062">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I399.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LOWERAUSTRIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1065">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I669.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LOWERAUSTRIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1066">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I669.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LOWERAUSTRIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1068.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1084.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1089.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1106">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I864.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1122">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I669.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SALZBERGERLAND"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1125">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1254.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SALZBERGERLAND"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1133">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I10"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3009.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SALZBERGERLAND"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1138.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1143">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2648.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SALZKAMMERGUT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1151">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I10"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1084.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SALZKAMMERGUT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1169">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I549.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#STYRIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1180">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I359.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#STYRIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1186">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I762.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1198.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1201">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I898.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DOLOMITES"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1206">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I10"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1478.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DOLOMITES"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1220">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I10"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I929.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DOLOMITES"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1221">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2618.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#EGYPT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1234">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4552.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#EGYPT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1244">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3598.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MADEIRA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1247">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I5576.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MADEIRA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I125">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1138.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NORTHSEA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1251">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3578.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MADEIRA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1254.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1257.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1258">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2527.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CYPRUS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1258.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I127">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TRAIN"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1044.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NORTHSEA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1284">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2329.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALTA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1288">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1258.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALTA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1289.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1292">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2519.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALTA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1294">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1922.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALTA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1295">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1428.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALTA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1297">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3654.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MOROCCO"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1331">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4245.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#GRANCANARIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1349">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4585.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FUERTEVENTURA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1349.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1356">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#APRIL"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2828.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FUERTEVENTURA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1365">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2308.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FUERTEVENTURA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1386">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3188.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TENERIFFE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1392">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3368.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TENERIFFE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I14">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1402">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2922.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TENERIFFE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1411">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2628.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LANZAROTE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1416">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#APRIL"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2788.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LANZAROTE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1428.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1432">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4247.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LANZAROTE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1436">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2278.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FIVESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TURKISHRIVIERA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I14380.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1442">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2418.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FIVESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TURKISHRIVIERA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1478.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1580.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I16">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CITY"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#APRIL"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2308.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAIRO"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I171">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MAY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I589.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THURINGIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I173">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I574.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THURINGIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I174">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MAY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I858.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ATLANTIC"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I175">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2078.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ATLANTIC"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1782.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I180">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1289.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ATLANTIC"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I5"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1847.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I188">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I21"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2187.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ATLANTIC"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1910.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I192">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1089.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#COTEDAZUR"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I5"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1922.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1972.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PERSONS">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2007.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2028.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2036.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2048.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2078.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I209">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3522.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CORSICA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I21">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2118.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2158.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2187.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2258.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2278.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2308.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2329.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2371.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2418.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2457.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2478.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I249">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2787.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CHALKIDIKI"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2519.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2527.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2572.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I260">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I5329.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CHALKIDIKI"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2618.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2628.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2648.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I275">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2158.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CORFU"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2758.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2768.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2778.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2787.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2788.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2800.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2828.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2852.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I287">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2758.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CRETE"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2922.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2778.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#EGYPT"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I300">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2758.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RHODES"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3009.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I301">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I21"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4364.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RHODES"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I302">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#EDUCATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#OCTOBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2478.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RHODES"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3125.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I316">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LANGUAGE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2048.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#IRELAND"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I318">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I21"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SEPTEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2457.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I8"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#IRELAND"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3188.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I334">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TRAIN"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SEPTEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1198.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#NORTHSEA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3368.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I350">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14380.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ADRIATICSEA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3522.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3530.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3578.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I358">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1349.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ADRIATICSEA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I359.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3598.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3605.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3654.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I366">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I998.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ADRIATICSEA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3678.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I377">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SEPTEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2118.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LAKEGARDA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I379">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3678.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LAKEGARDA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I383">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I624.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LAKEGARDA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I385">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I884.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#LAKEGARDA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I394.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I399.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I415">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I439.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I417">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I769.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4245.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4247.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4364.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I439.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I444">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2572.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I446">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1049.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CARINTHIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I454.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4552.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I458">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I837.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SALZBERGERLAND"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4585.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I477">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I898.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#STYRIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I488.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I497">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I798.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I499">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1972.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I5">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PERSONS">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I50">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MAY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I789.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I5"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FANO"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I501">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MAY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I738.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I505">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1847.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FIVESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TYROL"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I509.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I524">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2371.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ALGARVE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I5329.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I544">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3598.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MADEIRA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I549.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I553">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I799.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SWEDEN"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I5576.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I569.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I574.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I580">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I779.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ALPS"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I588">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2800.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#COSTABLANCA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I589.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I6">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I60">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SEPTEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I951.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FIVESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ALLGAEU"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I61">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TRAIN"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I794.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ALLGAEU"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I624.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I630">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3188.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FUERTEVENTURA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I635">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I21"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3125.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#GRANCANARIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I638.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I652">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2852.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#IBIZA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I669.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I673">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JULY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3530.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALLORCA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I681">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BATHING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3605.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MALLORCA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I688.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I698.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I7">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DURATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I708">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I698.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#GIANTMOUNTAINS"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I719.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I738.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I751">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I21"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JUNE"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2768.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TUNISIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I752">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#PLANE"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MAY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2258.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TUNISIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I762.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I769.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I774.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I776">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I394.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BELGIUM"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I779.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I789.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I794.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I798">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I509.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DENMARK"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I798.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I799.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I8">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PERSONS">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I801">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I719.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DENMARK"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I823">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I638.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POLAND"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I832">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1048.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SLOWAKEI"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I837.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I838">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2036.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SLOWAKEI"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I844">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I888.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ONESTAR"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SLOWAKEI"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I847.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I851">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I998.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CZECHIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I857">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#MARCH"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I698.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CZECHIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I858.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I859">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I488.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ONESTAR"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CZECHIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I864.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I884.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I888.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I892">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I984.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ALLGAEU"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I897.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I898.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I913">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#SKIING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I774.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BAVARIA"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I919">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1018.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BAVARIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I929.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I931">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1782.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ERZGEBIRGE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I934">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1257.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ERZGEBIRGE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I94">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TRAIN"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#AUGUST"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1580.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FOURSTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ERZGEBIRGE"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I941">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1910.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THREESTARS"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HARZ"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I948">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2007.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HARZ"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I948.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I951.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I972">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I897.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BLACKFOREST"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I973">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I6"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#WANDERING"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#DECEMBER"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I688.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BLACKFOREST"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I974">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#JANUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I454.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BLACKFOREST"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I977">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I14"/>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#RECREATION"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1068.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#HOLIDAYFLAT"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#BLACKFOREST"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I984.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I987.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I998">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#VACATION_CASE">
+    </owl:Class>
+  </rdf:type>
+  <unnamed:HAS-TRANSPORTATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#CAR"/>
+  <unnamed:HAS-DURATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I7"/>
+  <unnamed:HAS-HOLIDAY_TYPE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#ACTIVE"/>
+  <unnamed:HAS-SEASON rdf:resource="http://www.owl-ontologies.com/unnamed.owl#FEBRUARY"/>
+  <unnamed:HAS-PRICE rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I987.00"/>
+  <unnamed:HAS-CATEGORY rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS"/>
+  <unnamed:HAS-DESTINATION rdf:resource="http://www.owl-ontologies.com/unnamed.owl#THURINGIA"/>
+  <unnamed:HAS-PERSONS rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#I998.00">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#PRICE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#IBIZA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#IRELAND">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#JANUARY">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#WINTER">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#JULY">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SUMMER">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#JUNE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SUMMER">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#LAKEGARDA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#LANGUAGE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#LANZAROTE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#LOWERAUSTRIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#MADEIRA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#MALLORCA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#MALTA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#MARCH">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SPRING">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#MAY">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SPRING">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#MOROCCO">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#NORTHSEA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#NOVEMBER">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AUTUM">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#OCTOBER">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AUTUM">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#ONESTAR">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#PLANE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AIR">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#POLAND">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#RECREATION">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#RHODES">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#SALZBERGERLAND">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#SALZKAMMERGUT">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#SEPTEMBER">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#AUTUM">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#SKIING">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#NO_RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#SLOWAKEI">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#STYRIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#SWEDEN">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#TENERIFFE">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#THREESTARS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#THURINGIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#TRAIN">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#SURFACE">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#TUNISIA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#TURKISHRIVIERA">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#TWOSTARS">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#HOTEL_CAT">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#TYROL">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#DESTINATION">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#WANDERING">
+  <rdf:type>
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#RELAX">
+    </owl:Class>
+  </rdf:type>
+</rdf:Description>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-DESCRIPTION">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-DESTINATION">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-SEASON">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-CATEGORY">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-TRANSPORTATION">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-DURATION">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-PRICE">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-PERSONS">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-HOLIDAY_TYPE">
+  <rdfs:subPropertyOf>
+  <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#HAS-ATTRIBUTE">
+  </owl:ObjectProperty>
+  </rdfs:subPropertyOf>
+</owl:ObjectProperty>
+
+</rdf:RDF>

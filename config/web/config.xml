@@ -1,0 +1,8 @@
+<jCOLIBRIPackage>
+  <name>Web Interface Support</name>
+  <description>Web Interface Support for jCOLIBRI (Tomcat bridge)</description>
+  <path>web</path>
+  <methods>methods.xml</methods>
+  <tasks>tasks.xml</tasks>
+</jCOLIBRIPackage>
+

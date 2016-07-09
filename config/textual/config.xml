@@ -1,0 +1,10 @@
+<jCOLIBRIPackage>
+  <name>Textual Extension</name>
+  <description>Contains jCOLIBRI Textual-CBR Components</description>
+  <path>textual</path>
+  <tasks>tasks.xml</tasks>
+  <methods>methods.xml</methods>
+  <localSimilarityFunctions>localSimil.xml</localSimilarityFunctions>
+  <datatypes>datatypes.xml</datatypes>
+</jCOLIBRIPackage>
+

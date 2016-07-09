@@ -1,0 +1,8 @@
+<DataTypes>
+   <DataType>
+      <Name>Text</Name>
+      <Class>jcolibri.extensions.textual.representation.Text</Class>
+      <GUIEditor>jcolibri.extensions.textual.gui.editor.TextEditor</GUIEditor>
+   </DataType>
+</DataTypes>
+   

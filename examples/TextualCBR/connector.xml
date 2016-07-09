@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Connector>
+	<CaseBase>jcolibri.cbrcase.BasicCBRCaseBase</CaseBase>
+	<CaseStructure>examples\TextualCBR\caseStructure.xml</CaseStructure>
+	<OTHER>
+		<ConnectorClass>jcolibri.application.textualCBR.RestaurantsConnector</ConnectorClass>
+		<Parameter>
+			<ParameterName>File</ParameterName>
+			<ParameterValue>examples\TextualCBR\restaurants.txt</ParameterValue>
+		</Parameter>
+	</OTHER>
+</Connector>

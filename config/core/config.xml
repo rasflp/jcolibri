@@ -1,0 +1,10 @@
+<jCOLIBRIPackage>
+  <name>Core</name>
+  <description>Contains jCOLIBRI Core Components</description>
+  <tasks>tasks.xml</tasks>
+  <methods>methods.xml</methods>
+  <localSimilarityFunctions>localSimil.xml</localSimilarityFunctions>
+  <globalSimilarityFunctions>globalSimil.xml</globalSimilarityFunctions>
+  <datatypes>datatypes.xml</datatypes>
+</jCOLIBRIPackage>
+

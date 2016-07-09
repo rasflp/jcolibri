@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by Luis Diez (freelance) -->
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Juanan (ucm) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Connector">
+		<xs:annotation>
+			<xs:documentation>Root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="CaseBase"/>
+				<xs:element ref="CaseStructure" minOccurs="0"/>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element ref="JDBC"/>
+					<xs:element ref="PlainText"/>
+					<xs:element ref="Jena"/>
+					<xs:element ref="OTHER"/>
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CaseBase" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>CaseBase class(in memory organization)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="JDBC">
+		<xs:annotation>
+			<xs:documentation>JDBC Configuration</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Driver"/>
+				<xs:element ref="SubProtocol"/>
+				<xs:element ref="Host"/>
+				<xs:element ref="Port"/>
+				<xs:element ref="DataBase"/>
+				<xs:element ref="Table"/>
+				<xs:element ref="User"/>
+				<xs:element ref="PassWord"/>
+				<xs:element ref="Mappings"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Driver" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>JDBC Driver</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="SubProtocol" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>JDBC Subprotocol</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Host">
+		<xs:annotation>
+			<xs:documentation>Host name or IP address</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Port" type="xs:integer">
+		<xs:annotation>
+			<xs:documentation>TCP/IP port</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="DataBase" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>JDBC DataBase name</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Table" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>JDBC Table name</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="User">
+		<xs:annotation>
+			<xs:documentation>JDBC User name</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="PassWord">
+		<xs:annotation>
+			<xs:documentation>JDBC User password</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Mappings">
+		<xs:annotation>
+			<xs:documentation>Mappings between persistence and cases</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="CaseIdColumn"/>
+				<xs:sequence>
+					<xs:element ref="Map" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CaseIdColumn" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Unique case identificator</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Map">
+		<xs:annotation>
+			<xs:documentation>Mapping between a persistence column or field and an Individual </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ColumnName"/>
+				<xs:element ref="Relation"/>
+				<xs:element ref="Weight"/>
+				<xs:element ref="Individual"/>
+				<xs:element ref="ColumnType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ColumnName" type="xs:string"/>
+	<xs:element name="Relation" type="xs:string"/>
+	<xs:element name="Weight">
+		<xs:simpleType>
+			<xs:restriction base="xs:double"/>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Individual" type="xs:string"/>
+	<xs:element name="ColumnType" type="xs:string"/>
+	<xs:element name="PlainText">
+		<xs:annotation>
+			<xs:documentation>PlainText Configuration</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="FilePath"/>
+				<xs:element ref="Delimiters"/>
+				<xs:element ref="Mappings"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FilePath"/>
+	<xs:element name="Delimiters"/>
+	<xs:element name="ConnectorClass" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Connector class</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Jena">
+		<xs:annotation>
+			<xs:documentation>Jena Configuration</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:element name="InternalConnector">
+						<xs:annotation>
+							<xs:documentation>Another connector to manage persistence</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:choice>
+				<xs:element ref="Host"/>
+				<xs:element ref="Port"/>
+				<xs:element name="Reasoner">
+					<xs:annotation>
+						<xs:documentation>Type of reasoner</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Source">
+					<xs:annotation>
+						<xs:documentation>File path of an owl file</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Namespace">
+					<xs:annotation>
+						<xs:documentation>NameSpace of the ontology</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Mappings">
+					<xs:annotation>
+						<xs:documentation>Mappings between persistence and cases</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CaseIdConcept">
+								<xs:annotation>
+									<xs:documentation>Concept that every case must instanciate</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:sequence>
+								<xs:element name="Map" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation>Mapping between a persistence concept and an Individual</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element ref="ColumnName"/>
+											<xs:element ref="Relation"/>
+											<xs:element ref="Weight"/>
+											<xs:element ref="Individual"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OTHER">
+		<xs:annotation>
+			<xs:documentation>Another configuration</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ConnectorClass"/>
+				<xs:sequence maxOccurs="unbounded">
+					<xs:element ref="Parameter"/>
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Parameter">
+		<xs:annotation>
+			<xs:documentation>Defines parameters for the connector</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ParameterName"/>
+				<xs:element ref="ParameterValue"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ParameterName">
+		<xs:annotation>
+			<xs:documentation>Name of the parameter</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ParameterValue">
+		<xs:annotation>
+			<xs:documentation>Value of the parameter</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="CaseStructure" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Case Structure description</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

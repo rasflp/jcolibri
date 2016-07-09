@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Juanan (ucm) -->
+<!-- edited with XML Spy v4.1 U (http://www.xmlspy.com) by Nasdaq Boom (World of Cracking) -->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Methods">
+		<xs:annotation>
+			<xs:documentation>Available methods on the system, associated with the solved task</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Method" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Method">
+		<xs:annotation>
+			<xs:documentation>Method declaration</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name" type="xs:string"/>
+				<xs:element name="Description" type="xs:string"/>
+				<xs:element ref="ContextInputPrecondition" minOccurs="0"/>
+				<xs:element ref="Type"/>
+				<xs:element ref="Parameters" minOccurs="0"/>
+				<xs:element ref="Competencies"/>
+				<xs:element ref="SubTasks" minOccurs="0"/>
+				<xs:element ref="ContextOutputPostcondition" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Type">
+		<xs:annotation>
+			<xs:documentation>Methods could be of type resolution or decomposition, depending if they solve the task or just decompose it in more tasks</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Decomposition"/>
+				<xs:enumeration value="Resolution"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Parameters">
+		<xs:annotation>
+			<xs:documentation>Parameters set on the method instantation</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Parameter" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Parameter" type="ParameterType"/>
+	<xs:element name="Competencies">
+		<xs:annotation>
+			<xs:documentation>List of tasks that this method is able to solve</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Competence" type="xs:string" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SubTasks">
+		<xs:annotation>
+			<xs:documentation>On decomposition type methods is the list of subtasks on which the main task is devided</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="SubTask" type="xs:string" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContextCondition" type="ContextConditionType">
+		<xs:annotation>
+			<xs:documentation>Occurences and type of the data that is on the context</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ContextInputPrecondition">
+		<xs:annotation>
+			<xs:documentation>Preconditions related to the context for this method execution</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ContextCondition" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContextOutputPostcondition">
+		<xs:annotation>
+			<xs:documentation>Postconditions related to the context once the method is executed</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ContextCondition" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ParameterType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="Description" type="xs:string" minOccurs="0"/>
+			<xs:choice>
+				<xs:element name="DataType" type="DataTypeType"/>
+				<xs:element name="CBRTerm" type="CBRTermType">
+					<xs:annotation>
+						<xs:documentation>References to JColibri objects: CBRCase, CBRCaseSim, ...</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContextConditionType">
+		<xs:choice>
+			<xs:sequence>
+				<xs:element name="MaxOccurrences" type="OccurrenceType"/>
+				<xs:element name="MinOccurrences" type="OccurrenceType"/>
+				<xs:element name="CBRTerm" type="CBRTermType">
+					<xs:annotation>
+						<xs:documentation>References to JColibri objects: CBRCase, CBRCaseSim, ...</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+			<xs:sequence>
+				<xs:element ref="Parameter"/>
+			</xs:sequence>
+		</xs:choice>
+	</xs:complexType>
+	<xs:simpleType name="OccurrenceType">
+		<xs:annotation>
+			<xs:documentation>Declares the number of requiered entities: undefined or any number</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\p{N}|undefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CBRTermType">
+		<xs:annotation>
+			<xs:documentation>References to JColibri objects: CBRCase, CBRCaseSim, ...</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="DataTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="String"/>
+			<xs:enumeration value="Boolean"/>
+			<xs:enumeration value="Double"/>
+			<xs:enumeration value="Integer"/>
+			<xs:enumeration value="Date"/>
+			<xs:enumeration value="Object"/>
+			<xs:enumeration value="File"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

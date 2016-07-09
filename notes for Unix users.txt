@@ -1,0 +1,4 @@
+- Pre-configured applications stored under examples/ (are ended by .app) only work in Windows platforms. You should create the examples using the tutorials.
+- Help menu options try to open Netscape explorer with the appropiate documentation. If you have not instaled this browser you should open the indicated URLs manually.
+
+Enjoy.

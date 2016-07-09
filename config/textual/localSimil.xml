@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LocalSimilarities>
+	<LocalSim>
+		<Name>Cosine Coefficient</Name>
+		<ClassName>jcolibri.extensions.textual.similarity.local.CosineCoefficient</ClassName>
+		<Attributes>
+			<Attribute>Text</Attribute>
+		</Attributes>
+    </LocalSim>
+	<LocalSim>
+		<Name>Dice Coefficient</Name>
+		<ClassName>jcolibri.extensions.textual.similarity.local.DiceCoefficient</ClassName>
+		<Attributes>
+			<Attribute>Text</Attribute>
+		</Attributes>
+	</LocalSim>
+	<LocalSim>
+		<Name>Jaccard Coefficient</Name>
+		<ClassName>jcolibri.extensions.textual.similarity.local.JaccardCoefficient</ClassName>
+		<Attributes>
+			<Attribute>Text</Attribute>
+		</Attributes>
+	</LocalSim>
+	<LocalSim>
+		<Name>Overlap Coefficient</Name>
+		<ClassName>jcolibri.extensions.textual.similarity.local.OverlapCoefficient</ClassName>
+		<Attributes>
+			<Attribute>Text</Attribute>
+		</Attributes>
+	</LocalSim>
+		<LocalSim>
+		<Name>Tokens Contained</Name>
+		<ClassName>jcolibri.extensions.textual.similarity.local.TokensContained</ClassName>
+		<Attributes>
+			<Attribute>String</Attribute>
+		</Attributes>
+	</LocalSim>
+	<LocalSim>
+		<Name>AverageMultipleTextValues</Name>
+		<ClassName>jcolibri.extensions.textual.similarity.local.AverageMultipleTextValues</ClassName>
+		<Attributes>
+			<Attribute>String</Attribute>
+		</Attributes>
+		<Parameters>
+			<Param>
+				<Name>INTERVAL</Name>
+				<Value>1</Value>
+			</Param>
+		</Parameters>		
+	</LocalSim>
+
+
+</LocalSimilarities>

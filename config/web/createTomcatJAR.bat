@@ -1,0 +1,5 @@
+cd ..
+cd ..
+cd bin
+jar cvf jCOLIBRIbridge.jar jcolibri/cbrcase/BasicCBRCaseBase.class jcolibri/cbrcase/CaseEvalList.class jcolibri/cbrcase/CaseEvaluation.class jcolibri/cbrcase/CBRCase.class jcolibri/cbrcase/CBRCaseBase.class jcolibri/cbrcase/CBRQuery.class jcolibri/cbrcase/Connector.class jcolibri/cbrcase/Individual.class jcolibri/cbrcase/IndividualRelation.class jcolibri/cbrcase/RelationEvaluation.class jcolibri/cbrcase/SimpleIndividual.class jcolibri/cbrcore/CBRTerm.class jcolibri/cbrcore/exception/DataInconsistencyException.class jcolibri/cbrcore/exception/ExecutionException.class jcolibri/cbrcore/exception/IncompatibleMethodException.class jcolibri/cbrcore/exception/InitializingException.class jcolibri/cbrcore/exception/InternalException.class jcolibri/similarity/SimilarityFunction.class jcolibri/util/CBRLogger.class jcolibri/util/LogListener.class jcolibri/extensions/web/bridge/WebBridge.class jcolibri/extensions/web/bridge/SessionOutException.class jcolibri/extensions/web/bridge/Synchronizer.class  
+move jCOLIBRIbridge.jar ..\config\web

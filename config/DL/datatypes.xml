@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTypes>
+	<DataType>
+		<Name>Concept</Name>
+		<Class>jcolibri.extensions.DL.datatypes.ConceptType</Class>
+		<GUIEditor>jcolibri.extensions.DL.gui.editor.ConceptEditor</GUIEditor>
+	</DataType>
+</DataTypes>

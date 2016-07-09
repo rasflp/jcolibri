@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>jCOLIBRI PlayTennis Example</title>
+</head>
+<body>
+<table border="0" cellpadding="2" cellspacing="" width="100%">
+
+  <tr>
+  <td>
+	<a href="http://gaia.fdi.ucm.es"><img src="gaia.gif" border="0"></a>
+  </td>
+  <td colspan="2" valign="middle" bgcolor="#738EAB">
+
+       <h2><font face="arial" color="#ffffff"> GAIA - Group for Artificial Intelligence Applications</font></h2>
+
+	<hr color="White">
+  </td>
+  </tr>
+</table>
+<p>Welcome to the jCOLIBRI Web Extension Demo. This demo runs the typical example of <b>Play Tennis</b> that computes if you should play tennis today depending on three attributes. This is just a toy to show how to connect a jCOLIBRI CBR application with a Web Server. Read the documentation for more information.</p>
+
+<form action="processquery.jsp" method="post">
+
+<table cellspacing="15" align="center" width="60%">
+<tr>
+       <td><b>Month</b>
+	   <select name="month">
+	     <option>January</option>
+	     <option>February</option>
+	     <option>March</option>
+	     <option>April</option>
+	     <option>May</option>
+	     <option>June</option>
+	     <option>July</option>
+	     <option>August</option>
+	     <option>September</option>
+	     <option>October</option>
+	     <option>November</option>
+	     <option>December</option>
+	   </select>	
+	   </td>
+       <td><b>Is rainning?</b> <input type="checkbox" name="israinning" value="false"></td>
+       <td><b>Last match?</b> <input name="lastmatch" type="text" value="" size="2"></td>
+</tr>
+</table>
+<center><input type="submit" value="Send Query"></center>
+</form>
+<p>
+<center><a href="http://gaia.fdi.ucm.es/projects/jcolibri"><img src="jcolibri.jpg"  border="0"></a></center>
+
+</body>
+</html>

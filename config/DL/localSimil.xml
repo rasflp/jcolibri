@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LocalSimilarities>
+	<LocalSim>
+		<Name>SiblingSimilarity</Name>
+		<ClassName>jcolibri.extensions.DL.similarity.local.Sibling</ClassName>
+		<Attributes>
+			<Attribute>Concept</Attribute>
+		</Attributes>
+		<Parameters/>
+	</LocalSim>
+	<LocalSim>
+		<Name>CousinSimilarity</Name>
+		<ClassName>jcolibri.extensions.DL.similarity.local.Cousin</ClassName>
+		<Attributes>
+			<Attribute>Concept</Attribute>
+		</Attributes>
+		<Parameters/>
+	</LocalSim>
+	<LocalSim>
+		<Name>EdgeDistanceSimilarity</Name>
+		<ClassName>jcolibri.extensions.DL.similarity.local.EdgeDistance</ClassName>
+		<Attributes>
+			<Attribute>Concept</Attribute>
+		</Attributes>
+		<Parameters/>
+	</LocalSim>
+	
+	<LocalSim>
+		<Name>CosineSimilarity</Name>
+		<ClassName>jcolibri.extensions.DL.similarity.local.Cosine</ClassName>
+		<Attributes>
+			<Attribute>Concept</Attribute>
+		</Attributes>
+		<Parameters/>
+	</LocalSim>
+	<LocalSim>
+		<Name>DetailSimilarity</Name>
+		<ClassName>jcolibri.extensions.DL.similarity.local.Detail</ClassName>
+		<Attributes>
+			<Attribute>Concept</Attribute>
+		</Attributes>
+		<Parameters/>
+	</LocalSim>
+	<LocalSim>
+		<Name>DeepSimilarity</Name>
+		<ClassName>jcolibri.extensions.DL.similarity.local.Deep</ClassName>
+		<Attributes>
+			<Attribute>Concept</Attribute>
+		</Attributes>
+		<Parameters/>
+	</LocalSim>
+
+
+</LocalSimilarities>

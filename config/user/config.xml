@@ -1,0 +1,11 @@
+<jCOLIBRIPackage>
+  <name>User Components</name>
+  <description>Contains User defined componentes</description>
+  <path>user</path>
+  <tasks>tasks.xml</tasks>
+  <methods>methods.xml</methods>
+  <localSimilarityFunctions>localSimil.xml</localSimilarityFunctions>
+  <globalSimilarityFunctions>globalSimil.xml</globalSimilarityFunctions>
+  <datatypes>datatypes.xml</datatypes>
+</jCOLIBRIPackage>
+

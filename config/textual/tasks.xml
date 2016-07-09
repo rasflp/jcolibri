@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Tasks>
+<Task>
+<Name>Adapt solution task</Name>
+<Description>Adapts the solution found</Description>
+</Task>
+<Task>
+<Name>Select best task</Name>
+<Description>Select the best of the found cases</Description>
+</Task>
+<Task>
+<Name>Text Relation Process task</Name>
+<Description>Relates cases and query terms</Description>
+</Task>
+<Task>
+<Name>Query Textual Process task</Name>
+<Description>Pre-process the query</Description>
+</Task>
+<Task>
+<Name>Cases Textual Process task</Name>
+<Description>Pre-process the query</Description>
+</Task>
+<Task>
+<Name>Keyword Layer</Name>
+<Description>Recognize simple words, remove stop-words, extract names, stemmer and part-of-speech tagger</Description>
+</Task>
+<Task>
+<Name>Words Filter</Name>
+<Description>Separate text into words and remove stop-words</Description>
+</Task>
+<Task>
+<Name>Extract Names</Name>
+<Description>Extract only the names of the text</Description>
+</Task>
+<Task>
+<Name>Stemmer</Name>
+<Description>Perform a stemmer algorithm</Description>
+</Task>
+<Task>
+<Name>Part-of-Speech</Name>
+<Description>Perform a part-of-speech analysis</Description>
+</Task>
+<Task>
+<Name>Phrase Layer</Name>
+<Description>Recognize domain-specific expressions</Description>
+</Task>
+<Task>
+<Name>Thesaurus Layer</Name>
+<Description>Solve similarity relations between words.</Description>
+</Task>
+<Task>
+<Name>Glossary Layer</Name>
+<Description>Solve similarity relations between domain-specific terms</Description>
+</Task>
+<Task>
+<Name>Feature Value Layer</Name>
+<Description>Extract features an their values. Domain-specific</Description>
+</Task>
+<Task>
+<Name>Domain Structure Layer</Name>
+<Description>Extract global values that can be useful for clustering texts. Also used for indexing</Description>
+</Task>
+<Task>
+<Name>Information Extraction Layer</Name>
+<Description>Last features and structure extraction. (can overlap with the two previous layers</Description>
+</Task>
+</Tasks>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Tasks>
+<Task>
+<Name>Start Web Server task</Name>
+<Description>Launchs the Web Server</Description>
+</Task>
+<Task>
+<Name>Stop Web Server task</Name>
+<Description>Stops the Web Server</Description>
+</Task>
+<Task>
+<Name>Send Cases to Web Server task</Name>
+<Description>Sends the cases to the Web Server</Description>
+</Task>
+<Task>
+<Name>Start Web Cycle task</Name>
+<Description>Starts the web cycle</Description>
+</Task>
+<Task>
+<Name>Stop Web Cycle task</Name>
+<Description>Stops the web cycle</Description>
+</Task>
+
+
+</Tasks>

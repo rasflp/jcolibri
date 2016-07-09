@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Tasks>
+<Task>
+<Name>PreCycle</Name>
+<Description>Tasks to execute before CBR cycle</Description>
+</Task>
+<Task>
+<Name>CBR Cycle</Name>
+<Description>Main CBR cycle</Description>
+</Task>
+<Task>
+<Name>PostCycle</Name>
+<Description>Tasks to execute after CBR cycle</Description>
+</Task>
+<Task>
+<Name>AssessSim task</Name>
+<Description>Asign similitud to cases</Description>
+</Task>
+<Task>
+<Name>Evaluate task</Name>
+<Description>Evaluate the solution found</Description>
+</Task>
+<Task>
+<Name>Revise Task</Name>
+<Description>CBR Task revision</Description>
+</Task>
+<Task>
+<Name>CBR System</Name>
+<Description>Main CBR applications task</Description>
+</Task>
+<Task>
+<Name>Repair task</Name>
+<Description>Repair the solution found</Description>
+</Task>
+<Task>
+<Name>Select task</Name>
+<Description>Select the right case</Description>
+</Task>
+<Task>
+<Name>Select best task</Name>
+<Description>Select the best of the found cases</Description>
+</Task>
+<Task>
+<Name>Adapt solution task</Name>
+<Description>Adapts the solution found</Description>
+</Task>
+<Task>
+<Name>Copy solution task</Name>
+<Description>Copy the solution found</Description>
+</Task>
+<Task>
+<Name>Retain Task</Name>
+<Description>CBR Case retention</Description>
+</Task>
+<Task>
+<Name>Compute similarity task</Name>
+<Description>Compute similarity task</Description>
+</Task>
+<Task>
+<Name>Retrieve Task</Name>
+<Description>CBR case retrieval</Description>
+</Task>
+<Task>
+<Name>Reuse Task</Name>
+<Description>CBR case reuse</Description>
+</Task>
+<Task>
+<Name>Atomic Reuse Task</Name>
+<Description>CBR case reuse atomic task. This task must be solved by a reuse resolution method</Description>
+</Task>
+<Task>
+<Name>Obtain cases task</Name>
+<Description>Obtain cases task</Description>
+</Task>
+<Task>
+<Name>Obtain query task</Name>
+<Description>Obtains and configures the query</Description>
+</Task>
+<Task>
+<Name>Select working cases task</Name>
+<Description>Selects working cases from case base and stores them into current context</Description>
+</Task>
+<Task>
+<Name>Prepare Cases for Adaptation Task</Name>
+<Description>Selects working cases from case base and stores them into current context</Description>
+</Task>
+<Task>
+<Name>Select cases to store task</Name>
+<Description>Allows user to choose cases to store</Description>
+</Task>
+<Task>
+<Name>Store cases task</Name>
+<Description>Stores cases into CaseBase</Description>
+</Task>
+<Task>
+<Name>Close connector task</Name>
+<Description>Closes the connector saving the case base</Description>
+</Task>
+</Tasks>
+

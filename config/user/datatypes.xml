@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTypes>
+
+    <DataType>
+		<Name>ClusterEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>c1,aumATANo,10,22</Value>
+			<Value>c2,AUMATANO</Value>
+			<Value>c3,AUMATAnO,18,21</Value>
+			<Value>c4,auMATano,8,13</Value>
+			<Value>c5,auMATANo,8,19</Value>
+			<Value>c6,auMAtAno,7,12,13,18</Value>
+			<Value>c7,auMATANo,8,19</Value>
+			<Value>c8,auMATAno,7,18</Value>
+			<Value>i1,auMAtAno,7,12,13,17</Value>
+			<Value>i2,auMAtAno,7,12,13,18</Value>
+			<Value>i3,AUMATAnO,18,21</Value>
+			<Value>i4,auMATAno,5,18</Value>
+			<Value>i5,AUMATANO</Value>
+			<Value>i6,aUMATAno,5,17</Value>
+			<Value>i7,auMATANo,5,22</Value>
+		</Enumeration>
+	</DataType>
+    
+    <DataType>
+		<Name>TipoTarifaEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>monomia</Value>
+			<Value>binomia</Value>
+			<Value>verde</Value>
+			<Value>azul</Value>
+		</Enumeration>
+	</DataType>
+		
+    <DataType>
+    	<Name>DemandaContratadaEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>BAIXA</Value>
+			<Value>MEDIA</Value>
+			<Value>ALTA</Value>
+			<Value>MUITO_ALTA</Value>
+		</Enumeration>
+	</DataType>
+
+    <DataType>
+    	<Name>NaturezaEmpresaEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>comercial</Value>
+			<Value>industrial</Value>
+		</Enumeration>
+	</DataType>
+    
+    <DataType>
+    	<Name>MesAnoEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>janeiro</Value>
+			<Value>fevereiro</Value>
+			<Value>marco</Value>
+			<Value>abril</Value>
+			<Value>maio</Value>
+			<Value>junho</Value>
+			<Value>julho</Value>
+			<Value>agosto</Value>
+			<Value>setembro</Value>
+			<Value>outubro</Value>
+			<Value>novembro</Value>
+			<Value>dezembro</Value>
+		</Enumeration>
+	</DataType>
+
+    <DataType>
+		<Name>HorarioFuncionamentoEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>ini_madrugada</Value>
+			<Value>ini_manha</Value>
+			<Value>ini_tarde</Value>
+			<Value>ini_noite</Value>
+			<Value>fim_madrugada</Value>
+			<Value>fim_manha</Value>
+			<Value>fim_tarde</Value>
+			<Value>fim_noite</Value>
+			<Value>flat</Value>
+			<Value>NULLt</Value>
+		</Enumeration>
+	</DataType>
+    		
+    <DataType>
+    	<Name>NivelProducaoEnum</Name>
+		<Class>jcolibri.datatypes.StringEnumType</Class>
+		<GUIEditor>jcolibri.gui.editor.EnumEditor</GUIEditor>
+		<Enumeration>
+			<Value>BAIXO</Value>
+			<Value>MEDIO</Value>
+			<Value>ALTO</Value>
+			<Value>FERIAS_COLETIV</Value>
+			<Value>NULL</Value>
+		</Enumeration>
+	</DataType>
+        	
+</DataTypes>
