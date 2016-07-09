@@ -36,7 +36,7 @@ import jcolibri.util.ImagesContainer;
  */
 public class CBRArmGUI extends javax.swing.JFrame {
 	
-    private static final String TITLE= "jCOLIBRI 1.1";
+    private static final String TITLE= "jCOLIBRI 1.1 [rasflp]";
     
     private static final long serialVersionUID = 1L;
 

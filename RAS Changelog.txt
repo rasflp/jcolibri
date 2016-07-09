@@ -1,0 +1,13 @@
+= Release 1.1 [rasflp] =
+Released: 2016-09-07
+
+== Features ==
+ * Added support for Interval and Threshold metrics applied for the Double datatype, since the version 1.1 only accepted the "Equal" metric for doubles. It required changes in Interval and Threshold classes.
+ * Implemented global similarity method (weighted nearest neighbor), which considers the atributes weight in a proper way.
+
+== Bug Fixes ==
+ * Fixed an issue related to "user data types" in class "PlainTextConverter"
+ * Fixed an edit mask issue in the "Query Form" located in "DoubleEditor" class.
+
+If you have any questions, please feel free to ask
+rasflp@gmail.com
